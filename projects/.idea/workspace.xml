@@ -42,14 +42,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extract_data.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="extract_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extract_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
+            <state relative-caret-position="7383">
               <caret line="321" column="75" lean-forward="false" selection-start-line="321" selection-start-column="49" selection-end-line="321" selection-end-column="75" />
               <folding>
                 <element signature="e#12#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extract_match_info.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/extract_match_info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="588" column="25" lean-forward="false" selection-start-line="588" selection-start-column="17" selection-end-line="588" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,6 +108,8 @@
       <find>years[0]</find>
       <find>team</find>
       <find>team_name</find>
+      <find>write_scatter_data</find>
+      <find>years</find>
       <find>write_hist_global</find>
     </findStrings>
     <replaceStrings>
@@ -111,6 +123,7 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/get_play_classify_list.py" />
         <option value="$PROJECT_DIR$/extract_data.py" />
+        <option value="$PROJECT_DIR$/extract_match_info.py" />
       </list>
     </option>
   </component>
@@ -149,12 +162,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/extract_match_info.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.extract_data">
+  <component name="RunManager" selected="Python.extract_match_info">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,10 +332,29 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="extract_match_info" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tianqipachong" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extract_match_info.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.write_foreign_aid_id_ls" />
       <item index="1" class="java.lang.String" itemvalue="Python.extract_data" />
       <item index="2" class="java.lang.String" itemvalue="Python.get_all_info" />
+      <item index="3" class="java.lang.String" itemvalue="Python.extract_match_info" />
     </list>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -347,6 +379,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9256b8ac-ddfa-4dba-b669-fa7fc8feb295" name="Default" comment="" />
@@ -358,8 +393,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="2578" height="1410" extended-state="0" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="2578" height="1410" extended-state="1" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -430,6 +464,11 @@
           <line>501</line>
           <option name="timeStamp" value="164" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/extract_match_info.py</url>
+          <line>487</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -438,7 +477,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="165" />
+      <option name="time" value="167" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -448,16 +487,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/get_play_classify_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22494">
@@ -810,21 +839,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22494">
-          <caret line="1014" column="0" lean-forward="false" selection-start-line="1014" selection-start-column="0" selection-end-line="1014" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foreign_aid_id_ls.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/foreign_aid_id_ls.txt" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_exec.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -862,11 +877,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/extract_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
+        <state relative-caret-position="7383">
           <caret line="321" column="75" lean-forward="false" selection-start-line="321" selection-start-column="49" selection-end-line="321" selection-end-column="75" />
           <folding>
             <element signature="e#12#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22494">
+          <caret line="1014" column="0" lean-forward="false" selection-start-line="1014" selection-start-column="0" selection-end-line="1014" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract_match_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="588" column="25" lean-forward="false" selection-start-line="588" selection-start-column="17" selection-end-line="588" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
